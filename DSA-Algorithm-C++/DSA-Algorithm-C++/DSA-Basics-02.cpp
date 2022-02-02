@@ -48,7 +48,7 @@ int fib(int t1, int t2){
 int main(){
     int inputNumber;
     std::cin>>inputNumber;
-
+    std::cout<<"Hello";
 //    std::cout<<reverseNumber(inputNumber)<<std::endl;
 //    std::cout<<checkArmstrongNumber(inputNumber)<<std::endl;
     
