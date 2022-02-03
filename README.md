@@ -8,3 +8,7 @@ Learning C++ &amp; DSA Basics
 - Basic Patterns using loops.
 - Maths series problems(Fibonacci, Armstrong series)
 - Time & Space Complexity
+
+### Day 02 (3 Feb 2022)
+- Linear & Binary Search
+- Learning Sorting (Selection Sort)
