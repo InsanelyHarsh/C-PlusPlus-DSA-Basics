@@ -1,9 +1,14 @@
 # C-PlusPlus-DSA-Basics
 
 Learning C++ &amp; DSA Basics
+# Source of Learning
+
+[Best Guide for C++: Cherno](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
+[DSA: Apna College](https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
+[Data Structures: mycodeschool](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
+[Reverse a Linked List: Anuj Bhaiya](https://www.youtube.com/watch?v=ugQ2DVJJroc)
 
 ### Day 01 (2 Feb 2022)
-[Source of Learning](https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ)
 - Revised C++ basic syntax.
 - Basic Patterns using loops.
 - Maths series problems(Fibonacci, Armstrong series)
