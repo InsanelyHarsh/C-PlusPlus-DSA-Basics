@@ -12,3 +12,14 @@ Learning C++ &amp; DSA Basics
 ### Day 02 (3 Feb 2022)
 - Linear & Binary Search
 - Learning Sorting (Selection Sort)
+### Day 03 (4 Feb 2022)
+- Learned Basics of C++ 
+- Dynamic Memory allocation using 'new' & malloc calloc realloc .
+- void pointers, type casting.
+- classes & structs
+### Day 04 (- Feb 2022)
+- Nothing Progress
+- Studied Roadmap for Data structures.
+### Day 05 (7 Feb 2022)
+- Learned about Linked List.
+- Did 3-4 question on array & linked list(GsG baic difficulty level).
