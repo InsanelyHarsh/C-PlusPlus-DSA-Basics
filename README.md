@@ -27,4 +27,9 @@ Learning C++ &amp; DSA Basics
 - Studied Roadmap for Data structures.
 ### Day 05 (7 Feb 2022)
 - Learned about Linked List.
-- Did 3-4 question on array & linked list(GsG baic difficulty level).
+- Did 3-4 question on array & linked list(GeeksofGeeks basic difficulty level).
+### Day 06 (8 Feb 2022)
+- Implemented Linked List
+- Learned Stacks,Queues & Circular Linked List.(got Familiar with concepts)
+- Did 5-6 questions on CodeChef (Getting started Practice Contest) 
+

@@ -151,13 +151,68 @@ void pushElement(Node* &head_ref,int value){
 }
 
 
-
+void sumOfLastnElement(Node** head_ptr,int n){
+	Node* temp = *(head_ptr);
+	/*
+	assuming length of linked list is x
+	     v
+	*/
+	if (temp == NULL){
+		std::cout<<"Linked List is empty."<<std::endl;
+	}
+	int count = CountofLinkedListElement(*(head_ptr));
+	for(int i = 0; i<(count-n); i++){
+		temp = temp->next;
+	}
+	// std::cout<<temp->data;
+	int sum = 0;
+	while(temp != NULL){
+		sum = sum + temp->data;
+		temp = temp->next;
+	}
+	std::cout<<"The sum of last n Element is: "<<sum<<std::endl;
+}
 
 int main(int argc, char const *argv[])
 {
-	/* code */
+
+
+	int n=5;
+
+	// std::cin>>n;
+	int arr[n];
+	// arr = {2,4,93,20,8};
+	arr[0] = 1;
+	arr[1] = 2;
+	arr[2] = 3;
+	arr[3] = 4;
+	arr[4] = 5;
+	// arr[5] = 6;
+
+	int temp = 0;
+	if(n%2 == 0){
+		for(int i=0;i<n/2;i++){
+			temp = arr[i];
+			arr[i] = arr[(n-i-1)];
+			arr[(n-i-1)] = temp;
+		}
+	}
+	else{
+		for(int i=0;i<(n+1)/2;i++){
+			// std::cout<<arr[i]<<"**"<<arr[n-i-1]<<" ";
+			temp = arr[i];
+			arr[i] = arr[(n-i-1)];
+			arr[(n-i-1)] = temp;
+		}
+	}
+
+	for(int i=0;i<n;i++){
+		std::cout<<arr[i]<<" ";
+	}
+
 	Node* head;
 	head = NULL; //head pointing to null, linked list is empty.
+
 
 	insertElement(&head,69);
 	insertElement(&head,40);
@@ -171,7 +226,7 @@ int main(int argc, char const *argv[])
 	// removeElementbyKey(&head,1);
 
 	printLinkedList(&head);
-
+	sumOfLastnElement(&head,2);
 	// Node* reversed = reverseLlinkedList(head);
 	// printLinkedList(&reversed);
 
