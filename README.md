@@ -32,4 +32,8 @@ Learning C++ &amp; DSA Basics
 - Implemented Linked List
 - Learned Stacks,Queues & Circular Linked List.(got Familiar with concepts)
 - Did 5-6 questions on CodeChef (Getting started Practice Contest) 
-
+### Day 07 (9 Feb 2022)
+- Did 5-6 Questions on CodeChef & Practice array questions
+- Revised Bubble,Selection,Insertion Sort.
+- Learned Binary Tree
+### Day 08 ()
