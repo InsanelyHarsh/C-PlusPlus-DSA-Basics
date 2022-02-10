@@ -199,7 +199,6 @@ int main(int argc, char const *argv[])
 	}
 	else{
 		for(int i=0;i<(n+1)/2;i++){
-			// std::cout<<arr[i]<<"**"<<arr[n-i-1]<<" ";
 			temp = arr[i];
 			arr[i] = arr[(n-i-1)];
 			arr[(n-i-1)] = temp;
