@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B05B5CE328487507005B1AB7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05B5CE228487507005B1AB7 /* main.swift */; };
+		B05B5CF628487748005B1AB7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B05B5CF528487748005B1AB7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B05B5CDD28487507005B1AB7 /* CopyFiles */ = {
+		B05B5CF028487748005B1AB7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B05B5CDF28487507005B1AB7 /* Day04-DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day04-DSA"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B05B5CE228487507005B1AB7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B05B5CF228487748005B1AB7 /* Day04-DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day04-DSA"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B5CF528487748005B1AB7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B05B5CDC28487507005B1AB7 /* Frameworks */ = {
+		B05B5CEF28487748005B1AB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B05B5CD628487507005B1AB7 = {
+		B05B5CE928487748005B1AB7 = {
 			isa = PBXGroup;
 			children = (
-				B05B5CE128487507005B1AB7 /* Day04-DSA */,
-				B05B5CE028487507005B1AB7 /* Products */,
+				B05B5CF428487748005B1AB7 /* Day04-DSA */,
+				B05B5CF328487748005B1AB7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B05B5CE028487507005B1AB7 /* Products */ = {
+		B05B5CF328487748005B1AB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B05B5CDF28487507005B1AB7 /* Day04-DSA */,
+				B05B5CF228487748005B1AB7 /* Day04-DSA */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B05B5CE128487507005B1AB7 /* Day04-DSA */ = {
+		B05B5CF428487748005B1AB7 /* Day04-DSA */ = {
 			isa = PBXGroup;
 			children = (
-				B05B5CE228487507005B1AB7 /* main.swift */,
+				B05B5CF528487748005B1AB7 /* main.cpp */,
 			);
 			path = "Day04-DSA";
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B05B5CDE28487507005B1AB7 /* Day04-DSA */ = {
+		B05B5CF128487748005B1AB7 /* Day04-DSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B05B5CE628487507005B1AB7 /* Build configuration list for PBXNativeTarget "Day04-DSA" */;
+			buildConfigurationList = B05B5CF928487748005B1AB7 /* Build configuration list for PBXNativeTarget "Day04-DSA" */;
 			buildPhases = (
-				B05B5CDB28487507005B1AB7 /* Sources */,
-				B05B5CDC28487507005B1AB7 /* Frameworks */,
-				B05B5CDD28487507005B1AB7 /* CopyFiles */,
+				B05B5CEE28487748005B1AB7 /* Sources */,
+				B05B5CEF28487748005B1AB7 /* Frameworks */,
+				B05B5CF028487748005B1AB7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,25 +79,24 @@
 			);
 			name = "Day04-DSA";
 			productName = "Day04-DSA";
-			productReference = B05B5CDF28487507005B1AB7 /* Day04-DSA */;
+			productReference = B05B5CF228487748005B1AB7 /* Day04-DSA */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B05B5CD728487507005B1AB7 /* Project object */ = {
+		B05B5CEA28487748005B1AB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					B05B5CDE28487507005B1AB7 = {
+					B05B5CF128487748005B1AB7 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = B05B5CDA28487507005B1AB7 /* Build configuration list for PBXProject "Day04-DSA" */;
+			buildConfigurationList = B05B5CED28487748005B1AB7 /* Build configuration list for PBXProject "Day04-DSA" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B05B5CD628487507005B1AB7;
-			productRefGroup = B05B5CE028487507005B1AB7 /* Products */;
+			mainGroup = B05B5CE928487748005B1AB7;
+			productRefGroup = B05B5CF328487748005B1AB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B05B5CDE28487507005B1AB7 /* Day04-DSA */,
+				B05B5CF128487748005B1AB7 /* Day04-DSA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B05B5CDB28487507005B1AB7 /* Sources */ = {
+		B05B5CEE28487748005B1AB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05B5CE328487507005B1AB7 /* main.swift in Sources */,
+				B05B5CF628487748005B1AB7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B05B5CE428487507005B1AB7 /* Debug */ = {
+		B05B5CF728487748005B1AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -182,12 +181,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B05B5CE528487507005B1AB7 /* Release */ = {
+		B05B5CF828487748005B1AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,55 +232,51 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		B05B5CE728487507005B1AB7 /* Debug */ = {
+		B05B5CFA28487748005B1AB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF89CMS79F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		B05B5CE828487507005B1AB7 /* Release */ = {
+		B05B5CFB28487748005B1AB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF89CMS79F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B05B5CDA28487507005B1AB7 /* Build configuration list for PBXProject "Day04-DSA" */ = {
+		B05B5CED28487748005B1AB7 /* Build configuration list for PBXProject "Day04-DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B05B5CE428487507005B1AB7 /* Debug */,
-				B05B5CE528487507005B1AB7 /* Release */,
+				B05B5CF728487748005B1AB7 /* Debug */,
+				B05B5CF828487748005B1AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B05B5CE628487507005B1AB7 /* Build configuration list for PBXNativeTarget "Day04-DSA" */ = {
+		B05B5CF928487748005B1AB7 /* Build configuration list for PBXNativeTarget "Day04-DSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B05B5CE728487507005B1AB7 /* Debug */,
-				B05B5CE828487507005B1AB7 /* Release */,
+				B05B5CFA28487748005B1AB7 /* Debug */,
+				B05B5CFB28487748005B1AB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B05B5CD728487507005B1AB7 /* Project object */;
+	rootObject = B05B5CEA28487748005B1AB7 /* Project object */;
 }
