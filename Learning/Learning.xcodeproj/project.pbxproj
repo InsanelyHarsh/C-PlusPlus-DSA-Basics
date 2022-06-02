@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B03AF7CE27AC449F0025F6E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B03AF7CD27AC449F0025F6E1 /* main.cpp */; };
-		B0E45A7F27E332890013C90D /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E45A7D27E332890013C90D /* Test.cpp */; };
+		B0E45A8D27E332A70013C90D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0E45A8C27E332A70013C90D /* main.cpp */; };
+		B0E45A9427E333460013C90D /* noth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E45A9327E333460013C90D /* noth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B03AF7C827AC449F0025F6E1 /* CopyFiles */ = {
+		B0E45A8727E332A70013C90D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B03AF7CA27AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++DSA-Algorithm-Day02"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B03AF7CD27AC449F0025F6E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B0E45A7D27E332890013C90D /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
-		B0E45A7E27E332890013C90D /* Test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+		B0E45A8927E332A70013C90D /* Learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Learning; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E45A8C27E332A70013C90D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0E45A9327E333460013C90D /* noth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B03AF7C727AC449F0025F6E1 /* Frameworks */ = {
+		B0E45A8627E332A70013C90D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +40,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B03AF7C127AC449F0025F6E1 = {
+		B0E45A8027E332A70013C90D = {
 			isa = PBXGroup;
 			children = (
-				B0E45A7D27E332890013C90D /* Test.cpp */,
-				B0E45A7E27E332890013C90D /* Test.hpp */,
-				B03AF7CC27AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */,
-				B03AF7CB27AC449F0025F6E1 /* Products */,
+				B0E45A9327E333460013C90D /* noth.swift */,
+				B0E45A8B27E332A70013C90D /* Learning */,
+				B0E45A8A27E332A70013C90D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B03AF7CB27AC449F0025F6E1 /* Products */ = {
+		B0E45A8A27E332A70013C90D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B03AF7CA27AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */,
+				B0E45A8927E332A70013C90D /* Learning */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B03AF7CC27AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */ = {
+		B0E45A8B27E332A70013C90D /* Learning */ = {
 			isa = PBXGroup;
 			children = (
-				B03AF7CD27AC449F0025F6E1 /* main.cpp */,
+				B0E45A8C27E332A70013C90D /* main.cpp */,
 			);
-			path = "C++DSA-Algorithm-Day02";
+			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B03AF7C927AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */ = {
+		B0E45A8827E332A70013C90D /* Learning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B03AF7D127AC449F0025F6E1 /* Build configuration list for PBXNativeTarget "C++DSA-Algorithm-Day02" */;
+			buildConfigurationList = B0E45A9027E332A70013C90D /* Build configuration list for PBXNativeTarget "Learning" */;
 			buildPhases = (
-				B03AF7C627AC449F0025F6E1 /* Sources */,
-				B03AF7C727AC449F0025F6E1 /* Frameworks */,
-				B03AF7C827AC449F0025F6E1 /* CopyFiles */,
+				B0E45A8527E332A70013C90D /* Sources */,
+				B0E45A8627E332A70013C90D /* Frameworks */,
+				B0E45A8727E332A70013C90D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "C++DSA-Algorithm-Day02";
-			productName = "C++DSA-Algorithm-Day02";
-			productReference = B03AF7CA27AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */;
+			name = Learning;
+			productName = Learning;
+			productReference = B0E45A8927E332A70013C90D /* Learning */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B03AF7C227AC449F0025F6E1 /* Project object */ = {
+		B0E45A8127E332A70013C90D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					B03AF7C927AC449F0025F6E1 = {
+					B0E45A8827E332A70013C90D = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
-			buildConfigurationList = B03AF7C527AC449F0025F6E1 /* Build configuration list for PBXProject "C++DSA-Algorithm-Day02" */;
+			buildConfigurationList = B0E45A8427E332A70013C90D /* Build configuration list for PBXProject "Learning" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +108,30 @@
 				en,
 				Base,
 			);
-			mainGroup = B03AF7C127AC449F0025F6E1;
-			productRefGroup = B03AF7CB27AC449F0025F6E1 /* Products */;
+			mainGroup = B0E45A8027E332A70013C90D;
+			productRefGroup = B0E45A8A27E332A70013C90D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B03AF7C927AC449F0025F6E1 /* C++DSA-Algorithm-Day02 */,
+				B0E45A8827E332A70013C90D /* Learning */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B03AF7C627AC449F0025F6E1 /* Sources */ = {
+		B0E45A8527E332A70013C90D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03AF7CE27AC449F0025F6E1 /* main.cpp in Sources */,
-				B0E45A7F27E332890013C90D /* Test.cpp in Sources */,
+				B0E45A9427E333460013C90D /* noth.swift in Sources */,
+				B0E45A8D27E332A70013C90D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B03AF7CF27AC449F0025F6E1 /* Debug */ = {
+		B0E45A8E27E332A70013C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		B03AF7D027AC449F0025F6E1 /* Release */ = {
+		B0E45A8F27E332A70013C90D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,48 +242,63 @@
 			};
 			name = Release;
 		};
-		B03AF7D227AC449F0025F6E1 /* Debug */ = {
+		B0E45A9127E332A70013C90D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF89CMS79F;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		B03AF7D327AC449F0025F6E1 /* Release */ = {
+		B0E45A9227E332A70013C90D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF89CMS79F;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B03AF7C527AC449F0025F6E1 /* Build configuration list for PBXProject "C++DSA-Algorithm-Day02" */ = {
+		B0E45A8427E332A70013C90D /* Build configuration list for PBXProject "Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B03AF7CF27AC449F0025F6E1 /* Debug */,
-				B03AF7D027AC449F0025F6E1 /* Release */,
+				B0E45A8E27E332A70013C90D /* Debug */,
+				B0E45A8F27E332A70013C90D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B03AF7D127AC449F0025F6E1 /* Build configuration list for PBXNativeTarget "C++DSA-Algorithm-Day02" */ = {
+		B0E45A9027E332A70013C90D /* Build configuration list for PBXNativeTarget "Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B03AF7D227AC449F0025F6E1 /* Debug */,
-				B03AF7D327AC449F0025F6E1 /* Release */,
+				B0E45A9127E332A70013C90D /* Debug */,
+				B0E45A9227E332A70013C90D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B03AF7C227AC449F0025F6E1 /* Project object */;
+	rootObject = B0E45A8127E332A70013C90D /* Project object */;
 }
