@@ -148,6 +148,26 @@ void deleteAt(int position){
 }
 
 
+void reverseLinkedList(){
+    Node* current = head;
+    Node* prevNode = NULL;
+    Node* nextNode;
+    
+    while(current->next == NULL){
+        nextNode = current->next; //we are storing address/ptr of next node.
+        current->next = prevNode; //now we are setting current node's next ptr to prev Node(of Non-reverse Linked List).
+        
+        prevNode = current; //or prevNode = prevNode->next; maybe?
+        current = nextNode; //moving current node to nextnode to repeat the processs
+    }
+    
+//    current->next = NULL;
+    head = prevNode;
+    
+    std::cout<<head->next->data;
+}
+
+
 int main(int argc, const char * argv[]) {
 //    char inputString[20];
     //Char Array will print until \0 comes and stops..
@@ -183,6 +203,9 @@ int main(int argc, const char * argv[]) {
     insertAt(4, 69);
     
     deleteAt(1);
+    
+    reverseLinkedList();
+   
     return 0;
 }
 
