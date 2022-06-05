@@ -6,7 +6,10 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <sstream>
 
+using namespace std;
 //DAY-06
 //MARK: Sorting Algorithms and More Questions on Linked List, Array, String
 
@@ -29,6 +32,30 @@ void selectionSort(int arr[],int size){ //taking pointer of array.
     std::cout<<std::endl;
 }
 
+ 
+std::vector<int> gradingStudents(std::vector<int> grades) {
+    std::vector<int> result;
+    for(int i=0;i<grades.size();i++){
+        if(grades[i]<34 || grades[i] > 95){
+            result.push_back(grades[i]);
+        }
+        else{
+            if(grades[i]%10<3 || grades[i]%10 >7){ //no rounding off
+                result.push_back(grades[i]);
+            }
+            else{ //rounding off
+                int x = 5-(grades[i]%10);
+                result.push_back((grades[i]+x));
+            }
+        }
+    }
+    for(int i=0;i<result.size();i++){
+        std::cout<<result[i]<<" ";
+    }
+    std::cout<<std::endl;
+    return result;
+}
+
 void bubbleSort(int arr[],int size){
     //perform n-1
     int counter = 1;
@@ -40,8 +67,13 @@ void bubbleSort(int arr[],int size){
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
-    int arr[5] = {2,5,1,8,3};
-    selectionSort(arr, 5);
+//    std::cout << "Hello, World!\n";
+//    int arr[5] = {2,5,1,8,3};
+    std::vector<int> ip = {73,
+        67,
+        38,
+        33};
+//    selectionSort(arr, 5);
+    std::vector<int> x = gradingStudents(ip);
     return 0;
 }
