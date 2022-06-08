@@ -13,6 +13,18 @@
 
 using namespace::std;
 
+//MARK: - Questions solved on LeetCode.
+/*
+ Number Of Rectangles That Can Form The Largest Square
+ Convert Binary Number in a Linked List to Integer
+ Middle of the Linked List
+ Delete Node in a Linked List
+ Merge Nodes in Between Zeros
+ Odd Even Linked List
+ Number of Good Pairs
+ */
+//Not feeling well today. :(
+
 
 //MARK: -1290. Convert Binary Number in a Linked List to Integer
 struct ListNode {
