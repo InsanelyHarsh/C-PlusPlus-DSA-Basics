@@ -11,6 +11,8 @@
 
 #include <stack>
 #include <queue>
+#include <ostream>
+
 using namespace std;
 
 
@@ -262,6 +264,14 @@ int main(int argc, const char * argv[]) {
     std::map<int,int> freq;
     
     std::cout<<maxDepth("(1)+((2))+(((3)))")<<std::endl;
+    
+    //MARK: Bit Manipulation
+    int x = 5;
+    int y = x<<1; //left shift ---> multiply by 2, n times.
+//    int y = x>>1; //right shift ---> divide by 2, n times
+    int result = y&1; //masking, odd&1 -> 1, even&1 -> 0
+    std::cout<<"y: "<<y<<std::endl;
+    std::cout<<"result: "<<result<<std::endl;
     freq[3] = 34;
     return 0;
 }
